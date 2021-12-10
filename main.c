@@ -2,7 +2,7 @@
 #include "greeting.h"
 
 #if defined(BUILD_FUZZER)
-extern "C" LLVMFuzzerTestOneInput(const uint8_t *Data, size_t Size)
+extern "C" int LLVMFuzzerTestOneInput(const uint8_t *Data, size_t Size)
 {
   return 0;
 }
