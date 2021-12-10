@@ -55,8 +55,7 @@ jobs:
       # Build your program with the given configuration
       run: cmake --build ${{github.workspace}}/build_fuzzy --config ${{env.BUILD_TYPE}}  
 
-    - name:     - name: Fuzzy app Build
- app Test
+    - name: Fuzzy app Test
       working-directory: ${{github.workspace}}/build_fuzzy
       run: |
           ls
