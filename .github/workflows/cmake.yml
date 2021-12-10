@@ -61,4 +61,5 @@ jobs:
           ls
           mkdir CORPUS
           echo "Gennaro">CORPUS/Gennaro
-          ./sayhello -max_total_time=1 -max_len=1 -only_ascii=1 -print_final_stats CORPUS
+          ./sayhello -max_total_time=1 -max_len=1 -only_ascii=1 -print_final_stats CORPUS &>log.txt
+          tail log.txt
