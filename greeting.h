@@ -3,4 +3,4 @@
 
 void greeting_print (char *you);
 
-#endif GREETING_H
+#endif //GREETING_H
