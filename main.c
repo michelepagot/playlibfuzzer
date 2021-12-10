@@ -5,6 +5,7 @@
 #include <stdint.h>
 int LLVMFuzzerTestOneInput(const uint8_t *Data, size_t Size)
 {
+  greeting_print(Data);
   return 0;
 }
 #else
