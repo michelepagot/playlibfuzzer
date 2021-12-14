@@ -7,5 +7,5 @@
 # make -j$(nproc) all
 
 
-cmake -B ./build_fuzzy -DTEST_FUZZY=ON
-cmake --build .
+cmake -B ${WORK}/build_fuzzy -DTEST_FUZZY=ON
+cmake --build ${WORK}/build_fuzzy
