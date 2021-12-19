@@ -22,3 +22,4 @@ jobs:
      with:
        sanitizer: ${{ matrix.sanitizer }}
        upload-build: true
+       bad-build-check: false
